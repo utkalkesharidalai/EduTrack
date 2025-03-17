@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.o_layout {
+    width: 100vw;
+}
+
+.header1 {
+    background-color: #004aad;
+}
+
+.i_layout {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.top_navbar {
+    width: 100vw;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.top_navbar h3 {
+    color: white;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.top_navbar h3 span {
+    color: azure
+}
+
+.i_layout i {
+    margin: auto 15px;
+}
+
+/* .header2 */
+.header2 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.header2 img {
+    width: 210px;
+}
+
+.header2 nav ul {
+    list-style-type: none;
+
+}
+
+.header2 nav ul li {
+    display: inline;
+    margin: auto 10px;
+    font-family: "Nunito", sans-serif;
+    position: relative;
+
+
+}
+
+.header2 nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header2 nav ul li a:hover {
+    color: gray;
+}
+.header2 nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.header2 nav ul li .dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+
+.header2 nav ul li .dropdown-menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.header2 nav ul li .dropdown-menu li a:hover {
+    background-color: #736c6c3a;
+}
+
+/* Show dropdown menu on hover */
+.header2 nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+/* main */
+.main_o {
+    /* background-image: linear-gradient(90deg, #cdffd8, #94b9ff); */
+background-color: rgb(236, 217, 44);
+}
+.main_o {
+    transition: background-color 1s ease; /* Smooth transition for background color change */
+
+    /* Other styling to make the section visible */
+  }
+  
+  
+.main {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main .box1 {
+    /* border: 5px solid black; */
+    max-width: 600px;
+    height: auto;
+    margin: auto auto;
+}
+
+.main h2 {
+    font-size: 35px;
+    color: #38b6ff;
+}
+
+.main h3 {
+    font-size: 38px;
+    margin-top: 8px;
+    color: #545454;
+}
+
+.main p {
+    font-size: 25px;
+    text-align: justify;
+    color: #545454;
+}
+
+.main button {
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background-color: #38b6ff;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.main img {
+    border: 6px solid #53aedf;
+    border-radius: 50%;
+
+}
+
+
+/* Login Page for Admin start */
+.login_o {
+    background-image: linear-gradient(90deg, #cdffd8, #94b9ff);
+
+}
+
+.login_o div h3{
+    background-color: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.login_i {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login_i .left_img {
+    width: 500px;
+
+    height: auto;
+    /* margin: auto auto; */
+}
+
+.login_i .box2 {
+    
+    max-width: 600px;
+    /* border: 2px solid black; */
+}
+
+.login_i form img {
+    width: 75px;
+}
+.login_i form{
+    width: 350px;
+    height:450px ;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    border: 10px solid gray;
+    
+    
+}
+
+.login_i form img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.login_i form label{
+  margin-bottom:5px ;
+}
+.login_i form input{
+    margin-bottom:15px ;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 10px 20PX;
+    border-radius: 6px;
+    font-size: 18px;
+
+  }
+
+
+  .login_i form input::placeholder{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px;  
+    margin-left: 15px;
+
+   
+  }
+
+.login_i form button{
+    font-size: 14px;
+    padding: 6px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #6c5ce7;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.login_i form button:hover{
+    background-color: gray;
+    
+}
+
+/* Login Page for Admin end   */
+
+/* teacher reg start */
+.reg_o{
+
+    background-image: linear-gradient(90deg, #cdffd8, #94b9ff);
+}
+
+.reg_o div h3{
+    background-color: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
+.reg_i {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.reg_i form{
+    margin: 55px auto;
+    width: 650px;
+    height:auto ;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 12px;
+    border: 10px solid gray;
+    
+    
+}
+.reg_i form img{
+    width: 75px;
+    display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+.reg_i label{
+    margin-bottom: 8px;
+}
+
+.reg_i form input,select{
+    margin-bottom:15px ;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 10px 20PX;
+    border-radius: 6px;
+    font-size: 18px;
+    align-items: center;
+    grid-auto-flow: column;
+
+
+  }
+  .reg_i form sup{
+color: red;
+  }
+
+  .reg_i form input::placeholder{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px;  
+    margin-left: 15px;
+
+   
+  }
+
+.reg_i form button{
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #6c5ce7;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.reg_i form .btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reg_i form button:hover{
+    background-color: gray;
+    
+}
+
+.reg_i form left_img  {
+    width: 500px;
+
+    height: auto;
+    /* margin: auto auto; */
+}
+
+ /* reg Page for student Register  */
+ .sreg_o {
+    background-image: linear-gradient(90deg, #cdffd8, #94b9ff);
+
+}
+
+.sreg_o div h3{
+    background-color: #004aad;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.sreg_i {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:space-between ;
+    align-items: center;
+}
+.sreg_i img{
+    max-width: 500px;
+    min-width: 450px;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    border: 5px solid gray;
+    padding: 35px 55px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.grid-form span{
+    color: red;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 10px 20PX;
+    border-radius: 6px;
+    font-size: 18px;
+    align-items: center;
+    /* grid-auto-flow: column; */
+}
+
+.sreg_i .btn_f{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sreg_i  button {
+    padding: 10px 25px;
+   
+    border: none;
+    border-radius: 5px;
+    background-color: #6c5ce7;
+    color: white;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: gray;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Footer1 Section Starts Here  */
+.footer_o1{
+color: #fff;
+}
+.footer_i1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+.footer_i1 img{
+    width: 320px;
+}
+.footer_i1 h5{
+    color: green;
+    text-align: center;
+}
+.footer_i1 div{
+    max-width: 450px;
+}
+.footer_i1 .s_icons_f{
+font-size: 25px;
+}
+/* Footer1 Section Ends Here  */
+
+/* Footer2 Section Starts Here  */
+.footer_o2{
+    background-color: #004aad;
+    }
+    .footer_i2{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #fff;
+padding: 25px;
+}
+.footer_i2 h6{
+        font-size: 18px;
+
+    }
+
+    /* Footer2 Section Ends Here  */
+    
+
+    /* About Us Starts Here  */
+
+    .abt_us .ab_div  {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/images/about_us.jpg);
+        width: 100vw;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 600;
+     
+    }
+    
+    /* About Us Ends Here  */
