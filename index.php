@@ -61,7 +61,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="html/adminlogin.php"><i class="fas fa-user-shield me-2"></i>Admin</a></li>
-                            <li><a class="dropdown-item" href="html/slogin.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
+                            <li><a class="dropdown-item" href="login.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
                             <li><a class="dropdown-item" href="html/tlogin.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
                         </ul>
                     </li>
