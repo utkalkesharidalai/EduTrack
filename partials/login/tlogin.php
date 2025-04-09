@@ -68,7 +68,7 @@
             <div class="text-center mb-4">
                 <!-- Logo -->
                 <img src="../src/images/h_logo.png" alt="Logo" height="50" class="mb-2">
-                <h4 class="fw-bold">Admin Login</h4>
+                <h4 class="fw-bold">Teacher Login</h4>
             </div>
 
             <form action="togin.php" method="POST">
