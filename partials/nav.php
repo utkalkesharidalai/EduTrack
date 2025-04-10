@@ -1,6 +1,4 @@
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top shadow-sm" style="background-color: #0c111a;">
-        <div class="container">
+  
             <a class="navbar-brand fw-bold" href="index.html">
                 <img src="src/images/h_logo.png" alt="EduTrack Logo" height="40" class="me-2">
             </a>
