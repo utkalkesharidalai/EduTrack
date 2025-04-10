@@ -182,10 +182,9 @@ include('partials/nav.php');
                     </div>
                 </div>
             </div>
-        </div>
+    
  
 <?php
-// Include the footer 
 ('partials/scripts.php');      
 ('partials/footer.php');       
 ?>
