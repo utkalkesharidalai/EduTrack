@@ -185,6 +185,6 @@ include('partials/nav.php');
     
  
 <?php
-('partials/scripts.php');      
-('partials/footer.php');       
+(include'partials/scripts.php');      
+(include'partials/footer.php');       
 ?>
