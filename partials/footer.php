@@ -18,8 +18,8 @@
                 <h5 class="h6 mb-3">Quick Links</h5>
                 <ul class="list-unstyled small">
                     <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                    <li class="mb-2"><a href="" class="text-white text-decoration-none">Gallery</a></li>
+                    <li class="mb-2"><a href="..//about.php" class="text-white text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="..//gallery.php" class="text-white text-decoration-none">Gallery</a></li>
                     <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact</a></li>
                 </ul>
             </div>
