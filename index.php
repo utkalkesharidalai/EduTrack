@@ -1,83 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduTrack - College Management System</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .feature-icon {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #0d6efd;
-        }
-        .blob {
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            background: linear-gradient(135deg, #0d6efd55, #19875455);
-            border-radius: 50%;
-            filter: blur(50px);
-            z-index: -1;
-        }
-        .blob-1 {
-            top: 10%;
-            left: -100px;
-        }
-        .blob-2 {
-            bottom: 10%;
-            right: -100px;
-        }
-    </style>
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top shadow-sm" style="background-color: #0c111a;">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <img src="src/images/h_logo.png" alt="EduTrack Logo" height="40" class="me-2">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="html/aboutus.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="html/gallery.html">Gallery</a></li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="fas fa-sign-in-alt me-1"></i> Login
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="..//partials/login/adminlogin.php"><i class="fas fa-user-shield me-2"></i>Admin</a></li>
-                            <li><a class="dropdown-item" href="login.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
-                            <li><a class="dropdown-item" href="..//partials/login/tlogin.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            <i class="fas fa-user-plus me-1"></i> Register
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="html/sregister.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
-                            <li><a class="dropdown-item" href="html/tregister.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php 
+include('partials/header.php');
+include('partials/nav.php');
+?>
 
     <!-- Hero Section -->
     <section class="py-5 bg-light position-relative overflow-hidden">
@@ -280,7 +204,7 @@
                     <ul class="list-unstyled small">
                         <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
                         <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Gallery</a></li>
+                        <li class="mb-2"><a href="" class="text-white text-decoration-none">Gallery</a></li>
                         <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact</a></li>
                     </ul>
                 </div>
