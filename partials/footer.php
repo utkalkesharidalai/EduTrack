@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4">
-                <img src="src/images/h_logo.png" alt="EduTrack Logo" height="40" class="mb-3">
+                <img src="partials/images/h_logo.png" alt="EduTrack Logo" height="40" class="mb-3">
                 <p class="small">Empowering educational institutions with comprehensive management solutions for the digital age.</p>
                 <div class="d-flex gap-3">
                     <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
@@ -17,9 +17,9 @@
             <div class="col-lg-2 col-md-4">
                 <h5 class="h6 mb-3">Quick Links</h5>
                 <ul class="list-unstyled small">
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
-                    <li class="mb-2"><a href="..//about.php" class="text-white text-decoration-none">About Us</a></li>
-                    <li class="mb-2"><a href="..//gallery.php" class="text-white text-decoration-none">Gallery</a></li>
+                    <li class="mb-2"><a href="index.php" class="text-white text-decoration-none">Home</a></li>
+                    <li class="mb-2"><a href="about.php" class="text-white text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="gallery.php" class="text-white text-decoration-none">Gallery</a></li>
                     <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact</a></li>
                 </ul>
             </div>

@@ -26,7 +26,7 @@ include('partials/nav.php');
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="src/images/g9.jpg" 
+                    <img src="partials/images/g9.jpg" 
                          alt="Students Learning" 
                          class="img-fluid rounded-4 shadow-lg">
                 </div>
