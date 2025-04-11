@@ -17,9 +17,9 @@
                             <i class="fas fa-sign-in-alt me-1"></i> Login
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="../partials/login/adminlogin.php"><i class="fas fa-user-shield me-2"></i>Admin</a></li>
-                            <li><a class="dropdown-item" href="../partials/login/login.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
-                            <li><a class="dropdown-item" href="../partials/login/tlogin.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
+                            <li><a class="dropdown-item" href="partials/login/adminlogin.php"><i class="fas fa-user-shield me-2"></i>Admin</a></li>
+                            <li><a class="dropdown-item" href="partials/login/login.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
+                            <li><a class="dropdown-item" href="partials/login/tlogin.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -27,8 +27,8 @@
                             <i class="fas fa-user-plus me-1"></i> Register
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="../partials/register/sregister.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
-                            <li><a class="dropdown-item" href="../partials/register/tregister.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
+                            <li><a class="dropdown-item" href="partials/register/sregister.php"><i class="fas fa-user-graduate me-2"></i>Student</a></li>
+                            <li><a class="dropdown-item" href="partials/register/tregister.php"><i class="fas fa-chalkboard-teacher me-2"></i>Teacher</a></li>
                         </ul>
                     </li>
                 </ul>
