@@ -63,7 +63,7 @@
 
             <div class="text-center mb-4">
                 <!-- Logo -->
-                <img src="partials/images/h_logo.png" alt="Logo" height="50" class="mb-2">
+                <img src="../partials/images/h_logo.png" alt="Logo" height="50" class="mb-2">
                 <h4 class="fw-bold">Admin Login</h4>
             </div>
 
